@@ -1,15 +1,10 @@
 package com.mano.app.git_demo;
 
-/**
- * Hello world!
- *
- */
 public class App {
 
 	public void addData(String Data) {
 
-		System.out.println("Data = " + Data);
-		if (Data.equals("java")) {
+		if (Data.equals(Constant.DATA_TYPE)) {
 			System.out.println("Welcome");
 		}
 
